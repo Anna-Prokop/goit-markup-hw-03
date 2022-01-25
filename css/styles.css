@@ -6,10 +6,55 @@
 body {
   font-family: "Roboto", "Raleway" sans-serif;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  padding: 0px;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  display: block;
+}
+.container {
+  width: 1200px;
+  align-items: center;
+  margin: 0 auto;
+}
+
 /*====COMPONENTS====*/
 /*====END COMPONENTS====*/
 
 /*====HEADER====*/
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+}
 
 .navigation-logo {
   font-family: "Raleway", sans-serif;
@@ -21,10 +66,28 @@ body {
   color: #000000;
   text-decoration: none;
   cursor: pointer;
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 span {
   color: var(--main-color);
 }
+
+.navigation-list {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list-item:not(:last-child) {
+  margin-right: 46px;
+}
+
+.navigation-list-item {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .navigation-list-link {
   font-family: var(--main-font);
   font-weight: 500;
@@ -33,6 +96,10 @@ span {
   letter-spacing: 0.02em;
   color: #212121;
   text-decoration: none;
+}
+
+.mail {
+  margin-left: 371px;
 }
 
 .navigation-list-link:hover,
@@ -53,10 +120,13 @@ span {
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .phone-number {
   font-style: normal;
+  margin-left: 50px;
 }
 
 /*====END HEADER====*/
@@ -65,6 +135,8 @@ span {
 
 .section-hero {
   background-color: #2f303a;
+  height: 600px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 h1 {
   font-family: var(--main-font);
@@ -75,6 +147,12 @@ h1 {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  padding-top: 200px;
+  padding-bottom: 30px;
+  padding-left: auto;
+  padding-right: auto;
+  width: 696px;
+  margin: auto;
 }
 
 .module-btn {
@@ -92,6 +170,8 @@ h1 {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  padding: 10px 41px;
+  margin: 0 auto;
 }
 
 /*====END HERO====*/
