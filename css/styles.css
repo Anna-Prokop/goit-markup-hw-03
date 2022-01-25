@@ -171,12 +171,36 @@ h1 {
   border-radius: 4px;
   cursor: pointer;
   padding: 10px 41px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 /*====END HERO====*/
 
 /*====section Lorem Ipsum====*/
+
+.section-lorem-ipsum .container {
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  padding: 0 15px;
+  margin-top: 94px;
+  margin-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lorem-ipsum-list {
+  display: flex;
+  align-items: center;
+}
+
+.lorem-ipsum-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.lorem-ipsum-item {
+  width: 270px;
+}
 
 .section-lorem-title {
   font-family: var(--main-font);
@@ -186,6 +210,9 @@ h1 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
 }
 
 .section-lorem-text {
@@ -195,6 +222,8 @@ h1 {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: #757575;
+  display: flex;
+  align-items: center;
 }
 
 /*====section about us====*/
