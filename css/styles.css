@@ -1,0 +1,254 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --main-color: #2196f3;
+}
+body {
+  font-family: "Roboto", "Raleway" sans-serif;
+}
+/*====COMPONENTS====*/
+/*====END COMPONENTS====*/
+
+/*====HEADER====*/
+
+.navigation-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+}
+span {
+  color: var(--main-color);
+}
+.navigation-list-link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.mail:hover,
+.mail:focus,
+.phone-number:hover,
+.phone-number:focus {
+  color: var(--main-color);
+}
+
+.mail,
+.phone-number {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+
+.phone-number {
+  font-style: normal;
+}
+
+/*====END HEADER====*/
+
+/*====section HERO====*/
+
+.section-hero {
+  background-color: #2f303a;
+}
+h1 {
+  font-family: var(--main-font);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.module-btn {
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: var(--main-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/*====END HERO====*/
+
+/*====section Lorem Ipsum====*/
+
+.section-lorem-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.section-lorem-text {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*====section about us====*/
+
+.about-us-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/*====section our team====*/
+
+.our-team {
+  background-color: #f5f4fa;
+}
+
+.our-team-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.our-team-name {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.our-team-role {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*====footer====*/
+
+.contact {
+  background-color: #2f303a;
+}
+
+.contact-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.main-address {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.main-address-street {
+  color: #ffffff;
+  text-decoration: none;
+}
+.main-address-mail,
+.main-address-phone {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.main-address-street:hover,
+.main-address-street:focus,
+.main-address-mail:hover,
+.main-address-mail:focus,
+.main-address-phone:hover,
+.main-address-phone:focus {
+  color: var(--main-color);
+}
+
+/*====PORTFOLIO BOOKMARK====*/
+
+.portfolio-button-list {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.portfolio-button-item:hover,
+.portfolio-button-item:focus {
+  color: #ffffff;
+  background-color: var(--main-color);
+  cursor: pointer;
+}
+
+.portfolio-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.portfolio-type {
+  font-family: var(--main-font);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*====END PORTFOLIO BOOKMARK====*/
