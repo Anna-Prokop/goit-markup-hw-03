@@ -258,6 +258,7 @@ h1 {
 
 .our-team {
   background-color: #f5f4fa;
+  margin-bottom: 15px;
 }
 
 .our-team-title {
@@ -301,6 +302,10 @@ h1 {
   padding-bottom: 10px;
 }
 
+.main-address-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .our-team-role {
   font-family: var(--main-font);
   font-weight: 400;
@@ -328,7 +333,10 @@ h1 {
   color: #ffffff;
   text-decoration: none;
 }
-
+.contact-logo-padding {
+  padding-top: 45px;
+  padding-bottom: 20px;
+}
 .main-address {
   font-family: var(--main-font);
   font-style: normal;
@@ -337,6 +345,7 @@ h1 {
   line-height: 1.714;
   letter-spacing: 0.03em;
   text-decoration: none;
+  padding-bottom: 75px;
 }
 
 .main-address-street {
