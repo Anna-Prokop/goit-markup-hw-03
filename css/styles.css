@@ -55,6 +55,7 @@ img {
 .header .container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 
 .navigation {
@@ -369,7 +370,16 @@ h1 {
 
 /*====PORTFOLIO BOOKMARK====*/
 
-.portfolio-button-list {
+.portfolio-button {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-button-list:not(:last-child) {
+  margin-right: 8px;
+}
+
+.portfolio-button-item {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
@@ -379,7 +389,9 @@ h1 {
   color: #212121;
   background-color: #f5f4fa;
   border-radius: 4px;
-  display: inline-block;
+  padding: 6px 22px;
+  margin-bottom: 50px;
+  border-style: none;
 }
 
 .portfolio-button-item:hover,
