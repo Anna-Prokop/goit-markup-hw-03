@@ -52,10 +52,13 @@ img {
 
 /*====HEADER====*/
 
+.header {
+  height: 80px;
+  border-bottom: 1px solid #ececec;
+}
 .header .container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 
 .navigation {
@@ -191,7 +194,6 @@ h1 {
 .section-lorem-ipsum .container {
   display: flex;
   align-items: center;
-  width: 1170px;
   margin-left: auto;
   margin-right: auto;
 }
